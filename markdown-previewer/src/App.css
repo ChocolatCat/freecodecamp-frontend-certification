@@ -1,0 +1,18 @@
+body{
+    background-color: wheat;
+}
+
+.text-container{
+    margin: 10px auto;
+    padding: 20px;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+}
+
+.text-container > *{
+    background-color: burlywood;
+    color: white;
+    width: 80%;
+    line-break: auto;
+}
