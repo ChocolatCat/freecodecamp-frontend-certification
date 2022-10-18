@@ -1,0 +1,34 @@
+.App{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+    background-color: black;
+}
+
+#quote-box{
+    text-align:center;
+    display:flex;
+    padding: 20px;
+    flex-direction: column;
+    background-color: pink;
+    max-width: 500px;
+    width: 100%;
+}
+
+#new-quote{
+    margin: 20px auto;
+    border: 1px solid plum;
+    background-color: white;
+}
+
+#new-quote:hover{
+    cursor:grab;
+}
+
+#tweet-quote{
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+}
